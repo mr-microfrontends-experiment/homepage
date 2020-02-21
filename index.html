@@ -73,7 +73,7 @@
         <div class="col-md-4">
           <h2>List of Users</h2>
 
-          <mf-users></mf-users>
+          <mf-users id="usersElement"></mf-users>
         </div>
         <div class="col-md-8">
           <h2>Heading</h2>
@@ -85,7 +85,8 @@
           </p>
           <p>
             <a class="btn btn-default" href="#" role="button"
-              >View details &raquo;</a
+              >View details for User ID
+              <span id="userIdElement"></span> &raquo;</a
             >
           </p>
         </div>
@@ -99,14 +100,16 @@
     </div>
     <!-- /container -->
 
-    <script src="js/main.js"></script>
     <script
       type="module"
       src="https://awesome-euler-e0c5d4.netlify.com/build/mf-users.esm.js"
     ></script>
+
     <script
       type="module"
       src="https://distracted-jennings-cef38e.netlify.com/build/mf-jokes.esm.js"
     ></script>
   </body>
+
+  <script type="module" src="js/main.js"></script>
 </html>
