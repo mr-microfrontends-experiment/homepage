@@ -1,0 +1,23 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server . --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-microfrontends-experiment/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-microfrontends-experiment/homepage/issues"
+  },
+  "homepage": "https://github.com/mr-microfrontends-experiment/homepage#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
