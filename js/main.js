@@ -1,12 +1,11 @@
 const usersElement = document.querySelector("#usersElement");
-const userIdElement = document.querySelector("#userIdElement");
+const userDetailElement = document.querySelector("#userDetailElement");
 const jokeElement = document.querySelector("#joke-element");
 
 usersElement.addEventListener("outClickedItem", event => {
   console.log(event.detail, "User");
 
-  // send the userId to the future user detail component here
-  userIdElement.innerHTML = event.detail.id;
+  userDetailElement.userId = event.detail.id;
 });
 
 jokeElement.categories = ["nerdy"];
